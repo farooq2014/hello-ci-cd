@@ -28,5 +28,6 @@ jobs:
         run: pytest
 
       - name: Deploy
-        run: echo "✅ Code deployed successfully (demo deployment)"
-	python app.py
+        run: |
+          echo "✅ Code deployed successfully (demo deployment)"
+          python app.py
